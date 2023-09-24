@@ -1,8 +1,9 @@
+/* S'applique à tous les divs de la page*/
 div {
     display: inline-block;
 }
 
-
+/* S'applique à tous les éléments qui ont la class "list_element */
 .list_element {
     line-height: 50px;
     text-align: center;
@@ -10,13 +11,18 @@ div {
     padding: 10px;
 }
 
-
+/* S'applique à tous les éléments qui ont la clase "titre */
 .titre {
     color: blueviolet;
 
 }
 
+/* S'applique au body de la page */
 body {
     background-color: aquamarine;
 
+}
+
+.rotate{
+    transform: "rotate(90deg)";
 }

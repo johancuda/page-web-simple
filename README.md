@@ -6,7 +6,7 @@ Ce repo contient une page web simple pour illustrer les méchanismes généraux 
 
 ## Utilisation
 
-Pour créer votre copie de ce site sur votre machine:
+Pour créer votre copie de ce site sur votre machine (et vous amuser à le modifier):
 
 1. Rendez-vous sur la [page GitHub](https://github.com/johancuda/page-web-simple) de ce projet.
 
@@ -27,3 +27,7 @@ Pour créer votre copie de ce site sur votre machine:
 5. Lancer le server local en appuyant sur le bouton "Go Live" pour visualiser la page web dans votre navigateur.
 
 ![Lancer server live](img/run_server.png)
+
+## Contributeur
+
+Mis en place par Johan Cuda (Assistant étudiant, SLI, UNIL).

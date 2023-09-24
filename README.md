@@ -11,7 +11,6 @@ Pour créer votre copie de ce site sur votre machine:
 1. Rendez-vous sur la [page GitHub](https://github.com/johancuda/page-web-simple) de ce projet.
 ![Page GitHub](img/code_button.png)
 2. Appuyez sur la bouton "code" (en vert) et sélectionnez l'option "Open with GitHub Desktop".
-![Bouton vert](img/code_button.png)
 ![Open with GitHub Desktop](img/open_github_desktop.png)
 3. Une fois que  GitHub Desktop ce sera ouvert, choisissez dans quel dossier sur votre machine vous voulez cloner le repo.
 ![Clone](img/clone.png)

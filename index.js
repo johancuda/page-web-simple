@@ -10,6 +10,7 @@ texteQuiTourne.addEventListener('mouseover', (e) => {
     // On tire deux nombres "aléatoirement"
     let random = Math.floor(Math.random()*360)
     let random_percentage = Math.floor(Math.random()*100)
+
     // On utilise nos valeurs random pour changer aléatoirement la couleur du paragraphe
     e.target.style.color = `hsl(${random}, ${random_percentage}%, ${random_percentage}%)`
 })
@@ -24,8 +25,15 @@ document.body.append(texteQuiTourne)
 
 function myfunction() {
 
-    // On récupère la valeur entrée dans l'input
+    // On récupère la valeur entrée dans l'input et on l'affiche dans la console
     let value = document.getElementById('input').value
+    console.log(value)
+
+    /* 
+    Pour ouvrir la console:
+    Sur MacOS: cmd + maj + j
+    Sur Windows: ctrl + maj + j 
+    */
 
     // On crée une boîte dans laquelle l'écrire
     let div = document.createElement('div')

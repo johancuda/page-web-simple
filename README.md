@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce repo contient une page web simple pour illustrer les méchanismes généraux et l'architecture d'un site web. Il est proposé aux étudiants du cours "Développement web" donné par Isaac Pante (SLI, UNIL).
+Ce repo contient une page web simple pour illustrer les méchanismes généraux et l'architecture d'un site web. Il est proposé aux étudiants du cours "Développement web" donné par Isaac Pante (Maître d'enseignement et de recherche, SLI, UNIL).
 
 ## Utilisation
 
@@ -28,6 +28,6 @@ Pour créer votre copie de ce site sur votre machine (et vous amuser à le modif
 
 ![Lancer server live](img/run_server.png)
 
-## Contributeur
+## Contributeur(s)
 
 Mis en place par Johan Cuda (Assistant étudiant, SLI, UNIL).

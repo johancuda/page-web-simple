@@ -28,6 +28,11 @@ Pour créer votre copie de ce site sur votre machine (et vous amuser à le modif
 
 ![Lancer server live](img/run_server.png)
 
+## Architecture
+
+Ce site contient un partie des mécanismes qui vous serons présentés ce semestre. Nous vous invitons à parcourir l'intégralité du code de cette page web : il contient beaucoup de commentaires et d'indications qui pourraient vous être utiles. Nous essaierons dans la mesure du possible de rajouter d'autre éléments à cette page pendant le semestre pour illustrer les futures concepts qui vous seront présentés dans le cours.
+
+
 ## Contributeur(s)
 
 Mis en place par Johan Cuda (Assistant étudiant, SLI, UNIL).

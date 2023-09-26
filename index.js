@@ -1,4 +1,4 @@
-
+/* Ce fichier contient la partie interaction de notre site internet */
 // On crée un paragraphe
 let texteQuiTourne = document.createElement('span')
 
@@ -15,8 +15,11 @@ texteQuiTourne.addEventListener('mouseover', (e) => {
     e.target.style.color = `hsl(${random}, ${random_percentage}%, ${random_percentage}%)`
 })
 
-// On "colle" notre paragraphe au body de la page
-document.body.append(texteQuiTourne)
+// On récupère le div dans lequel on insère notre texte qui change de couleur
+let color_text_box = document.getElementById('color_text')
+
+// On "colle" notre paragraphe dans  le div
+color_text_box.append(texteQuiTourne)
 
 
 

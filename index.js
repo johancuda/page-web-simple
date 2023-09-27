@@ -53,3 +53,32 @@ function myfunction() {
     // On ajoute notre boîte contenant le texte de l'input au container
     container.appendChild(div)
 }
+
+// On crée un retour à la ligne et l'ajoute à la page
+let br = document.createElement('br')
+document.body.appendChild(br)
+
+// On crée une boîte pour contenir un bouton
+let div_bouton = document.createElement('div')
+
+// On crée un bouton et on lui donne un texte
+let bouton = document.createElement('button')
+bouton.innerHTML = "Get funky !"
+
+// On ajoute une interaction, une fonction s'exécute lorsqu'on click sur le bouton
+bouton.addEventListener('click', () => {
+
+    // On récupère tous les éléments 'p' de la page dans une liste
+    let paragraphes = document.querySelectorAll('p')
+
+    // On parcourt les éléments de la liste et pour chaque élément on change sa couleur de background
+    for(let i = 0; i < paragraphes.length; i++) {
+        paragraphes[i].style.backgroundColor = "purple"
+    }
+})
+
+// On ajoute le bouton à la boîte créée pour ça
+div_bouton.appendChild(bouton)
+
+// On ajoute la boîte à la page
+document.body.appendChild(div_bouton)

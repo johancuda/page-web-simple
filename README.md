@@ -37,4 +37,3 @@ Ce site contient un partie des mécanismes qui vous serons présentés ce semest
 
 Mis en place par Johan Cuda (Assistant étudiant, SLI, UNIL).
 
-Salut
